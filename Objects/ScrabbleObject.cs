@@ -49,8 +49,8 @@ namespace Scrabblenamespace
       Allwords.Add('Z', 1);
       int score =0;
 
-      string lowerWord = word.ToUpper();
-     char[] Biggie = word.ToCharArray();
+      string UpperWord = word.ToUpper();
+     char[] Biggie = UpperWord.ToCharArray();
      for (int i = 0; i < Biggie.Length; i++) {
        foreach ( KeyValuePair<char, int> Tupac in Allwords) {
          if( Biggie[i] == Tupac.Key)

@@ -13,5 +13,18 @@ namespace  Scrabblenamespace
       string testword = "A";
       Assert.Equal (1, Scrabble.DogHouse(testword));
     }
+
+    [Fact]
+    public void Test1_DogHouse_IsUpperCaseTrue()
+      {
+      string testword = "e";
+      Assert.Equal (1, Scrabble.DogHouse(testword));
+      }
+  [Fact]
+  public void Test1_DogHouse_IsScoreTrue()
+    {
+    string testword = "AEI";
+    Assert.Equal (3, Scrabble.DogHouse(testword));
+    }
   }
 }
