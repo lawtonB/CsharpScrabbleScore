@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-namespace TEMPLATES.Objects
+namespace Scrabble.Objects
 
 {
 
   //variables//
 
-    public class TEMPLATE
+    public class Scrabble
   {
       private string _TEMPLATEVARIABLE;
       private static List<TEMPLATE> _TEMPLATELIST = new List<TEMPLATE> {};
