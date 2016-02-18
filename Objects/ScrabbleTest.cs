@@ -1,17 +1,17 @@
-using Xunit;
-using Scrabble.Objects;
-using System;
 using System.Collections.Generic;
-namespace  Scrabbles
+using Xunit;
+using Scrabblenamespace;
+
+
+namespace  Scrabblenamespace
 {
   public class ScrabblesTest
   {
     [Fact]
-    public void IsString_IntoArray_true()
+    public void Test1_DogHouse_true()
     {
-      string = "a";
-      
+      string testword = "A";
+      Assert.Equal (1, Scrabble.DogHouse(testword));
     }
-
   }
 }
